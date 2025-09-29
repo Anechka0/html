@@ -63,6 +63,7 @@ body{
 .menu{
     display: flex;
     margin-top: 40px;
+    align-items: center;
     /* расстояние между обьектами */
     gap: 30px;
     justify-content: space-between;
@@ -73,9 +74,11 @@ body{
 
 .menu-border{
     border: 1px solid gray;
+    
     padding: 10px 20px;
     border-radius: 10px;
 }
+
 
 .menu a{
     text-decoration: none;
