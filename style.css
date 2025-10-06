@@ -1,8 +1,13 @@
+
+
+
+
 body{
     /* ширина */
     width: 1200px;  
     /* Внешний отступ */
     margin: auto;    
+    font-family: 'Open Sans';
 }
 
 
@@ -131,4 +136,9 @@ body{
 .question{
     display: flex;
     gap: 30px;
+}
+
+.quadratik-1{
+    font-size: 20px;
+    font-weight: bold;
 }
