@@ -138,7 +138,62 @@ body{
     gap: 30px;
 }
 
-.quadratik-1{
+.number{
     font-size: 20px;
     font-weight: bold;
+}
+
+.consultation-options{
+    display: flex;
+    justify-content: space-between;
+}
+
+.option-card{
+    border: 1px solid gray;
+    padding: 5px 5px;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 270px;
+    height: 180px;
+} 
+
+.icon{
+    padding: 10px;
+}
+
+.link{
+    display: flex;
+    justify-content: left;
+    margin-top: 50px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.link-call{
+    text-decoration: none;
+    display: flex;
+    justify-content: left;
+    margin-top: 35px;
+    margin-left: 20px
+}
+
+.image1{
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+
+.help-us{
+    border: 1px solid gray;
+    padding: 25px 100px;
+    border-radius: 40px;
+    font-size: 16px;
+    width: 270px;
+    height: 180px;
+    display: flex;
+}
+
+.img-help-us{
+    height: 110px;
+    width: 110px;
+
 }
